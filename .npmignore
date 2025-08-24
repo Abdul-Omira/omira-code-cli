@@ -1,0 +1,45 @@
+# Source files
+src/
+*.ts
+!dist/**/*.d.ts
+
+# Configuration files
+tsconfig.json
+.eslintrc
+.prettierrc
+
+# Development files
+*.log
+*.test.ts
+*.spec.ts
+__tests__/
+coverage/
+
+# Git files
+.git/
+.gitignore
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documentation source
+docs/
+
+# Development dependencies
+node_modules/
+.npm/
+
+# Build artifacts (keep dist)
+*.tsbuildinfo
+
+# Example and demo files
+examples/
+demo/
+MyAwesomeApp/
